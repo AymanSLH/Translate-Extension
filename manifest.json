@@ -3,7 +3,7 @@
   "name" : "translate" ,
   "version" : "0.5" ,
   "author" : "Ayman Salah" ,
-  "decription" :"This Extension Translate English to arabic"  ,
+  "description" :"This Extension Translate English to arabic"  ,
 
   "browser_action" : {
     "default_title" : "Translator 1" ,
@@ -12,9 +12,8 @@
   } ,
 
   "background" : {
-    "script" : ["background.js"] ,
+    "scripts" : ["background.js"] ,
     "persistent" : false
   }
-
 
 }
