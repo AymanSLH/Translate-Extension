@@ -1,5 +1,7 @@
 function OpenNewTab(info , tab) {
-  
+  chrome.tabs.create({
+    url  : "https://translate.google.com/#view=home&op=translate&sl=en&tl=ar&text=" + info.selectionText ,
+  }) ;
 }
 
 
