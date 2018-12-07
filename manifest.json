@@ -1,0 +1,20 @@
+{
+  "manifest_version" : 2 ,
+  "name" : "translate" ,
+  "version" : "0.5" ,
+  "author" : "Ayman Salah" ,
+  "decription" :"This Extension Translate English to arabic"  ,
+
+  "browser_action" : {
+    "default_title" : "Translator 1" ,
+    "default_icon" : "images/trans.png" ,
+    "default_popup" :"popup/popup.html"
+  } ,
+
+  "background" : {
+    "script" : ["background.js"] ,
+    "persistent" : false
+  }
+
+
+}
